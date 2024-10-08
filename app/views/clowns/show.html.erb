@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @clown %>
+
+<div>
+  <%= link_to "Edit this clown", edit_clown_path(@clown) %> |
+  <%= link_to "Back to clowns", clowns_path %>
+
+  <%= button_to "Destroy this clown", @clown, method: :delete %>
+</div>
